@@ -1,24 +1,26 @@
-# GRIP_case-study-IRIS-_Anand-Pratap
-#### IRIS CASE STUDY FOR CLUSTERING
+# Iris Clustering
 
-#### CANDIADTE NAME: ANAND PRATAP
+Clusters the Iris dataset into three groups with K-Means. Completed as Task 2 of The Sparks Foundation (GRIP) internship.
 
-#### TASK 2
+## Approach
 
-## SPARK FOUNDATION 
+1. Read and explore the data (`Iris.csv`)
+2. Preprocess: scale the features
+3. Choose the number of clusters with the elbow method and silhouette scores
+4. Apply K-Means and fine-tune the result
+5. Visualize the clusters
 
-#### Introduction:
+## Result
 
-In the realm of data analysis and pattern recognition, the IRIS dataset has long held a special place. A renowned benchmark for various machine learning and statistical techniques, the IRIS dataset offers a fascinating exploration into the world of botanical diversity. In this case study, we delve into the captivating realm of flowers, showcasing the remarkable power of clustering analysis to unlock hidden insights within this botanical treasure trove.
+The data separates into three clusters with different measurements, matching the three Iris species (Setosa, Versicolor, Virginica).
 
-The IRIS dataset, collected by the British biologist and statistician Ronald A. Fisher in the 1930s, consists of measurements of sepals and petals from three species of Iris flowers - Setosa, Versicolor, and Virginica. This dataset serves as a perfect illustration of the potential of clustering analysis techniques to categorize and differentiate biological specimens based on their physical attributes. Through clustering, we aim to showcase how data-driven techniques can not only classify these flowers but also reveal the inherent structure and relationships that exist within the data, shedding light on the fascinating world of floral diversity.
+## Files
 
-In the following sections, we will embark on a journey of exploration, uncovering the magic that clustering can work when applied to the IRIS dataset. We will demonstrate how clustering algorithms can be leveraged to distinguish between these Iris species, providing a valuable illustration of the broader applications of clustering analysis in various fields of science and industry.
+| File | Purpose |
+| --- | --- |
+| `GRIP_case study IRIS _Anand Pratap.ipynb` | Full analysis |
+| `Iris.csv` | Dataset |
 
-The steps are broadly:
-1. Read and understand the data
-2. Clean the data
-3. Prepare the data for modeling
-4. Modelling
-5. Final analysis and reco.
+## Stack
 
+Python, pandas, scikit-learn, matplotlib
